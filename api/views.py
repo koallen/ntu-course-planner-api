@@ -2,7 +2,7 @@ from flask_restful import Resource
 from flask_restful.reqparse import RequestParser
 from course_planner.planner import Planner
 
-class ClassPlanner(Resource):
+class PlannerApi(Resource):
     def get(self):
         # parse query parameters
         parser = RequestParser()
