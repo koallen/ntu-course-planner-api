@@ -1,0 +1,3 @@
+[submodule "api/course_planner"]
+	path = api/course_planner
+	url = git@github.com:koallen/ntu-course-planner-cli.git
